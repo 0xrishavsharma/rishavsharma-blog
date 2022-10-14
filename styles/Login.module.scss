@@ -1,0 +1,41 @@
+.container {
+    .wrapper {
+        display: flex;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .form {
+                h3 {}
+
+                h1 {}
+
+                span {}
+
+                form {
+                    .inputNameWrapper {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 2rem;
+
+                        .inputWrapper {
+                            label {}
+
+                            input {}
+                        }
+                    }
+
+                    .inputWrapper {
+                        label {}
+
+                        input {}
+                    }
+                }
+            }
+        }
+
+        .right {}
+    }
+}
