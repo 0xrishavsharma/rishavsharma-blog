@@ -88,7 +88,7 @@ const Login = () => {
                             <div className={[styles.inputAndBtn, ""].join(" ")}>
                                 <div className={[styles.inputWrapper, ""].join(" ")}>
                                     <div className={[styles.inputInnerWrapper, styles.inputInnerWrapperFile, ""].join(" ")} id="inputInnerWrapper">
-                                        <label htmlFor="avatarField">Upload photo</label>
+                                        <label htmlFor="avatarField">Click here to upload a photo</label>
                                         <input type="file" placeholder='' style={{ display: "none" }} className={[styles.formInput, ""].join(" ")} id="avatarField" />
                                     </div>
                                 </div>
